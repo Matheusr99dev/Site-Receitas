@@ -1,0 +1,50 @@
+li, h2 , h3 , h4 {
+    font-family: "handlee" , cursive;
+}
+span,p {
+ font-family: "just another hand" , cursive;    
+}
+
+header {
+    background-color: #bc9494;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 15px 1px rgba(0,0,0.75);    
+   
+}
+
+.nav-container {
+    width: 60%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #e8caca;
+    border-radius: 50%;
+    background-color: #5b2929;
+    
+}
+span {
+    color: #cfd9bc;
+    font-size: 25px;
+    font-weight: bold;
+}
+.links {
+    display: flex;
+    gap: 20px;
+    
+        
+}
+a {
+    color: #5b2929;
+    text-decoration: none;
+    
+}
